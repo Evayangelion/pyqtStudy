@@ -4,10 +4,6 @@ from PyQt5.QtWidgets import QApplication, QMainWindow
 import sys
 import random
 
-# 读取题目文本material
-test = open("material.txt", "r", encoding='utf-8')
-
-
 # 创建ui界面
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
